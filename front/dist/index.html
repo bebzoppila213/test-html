@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <script src="https://unpkg.com/lodash@4.17.20"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="burger">
+                    <div class="burger__linear"></div>
+                    <div class="burger__linear"></div>
+                    <div class="burger__linear"></div>
+                </div>
+                <div class="logo">
+                    <a class="logo__link" href="">
+                        <img class="logo__img" src="./images/logo.png" alt="Логотип">
+                    </a>
+                </div>
+                <div class="location">
+                    <img class="location__img" src="./images/location.png" alt="Локация">
+                    <span class="location__text">Москва</span>
+                </div>
+
+                <div class="search">
+                    <div class="search-mobile-close">X</div>
+                    <div role="button" class="search__input">
+                        <div class="search__input-img">
+                            <img src="./images/search.png" alt="Поиск">
+                        </div>
+                        <div class="search__input-input">
+                            Учебное заведение, специальность или профессия
+                        </div>
+                    </div>
+                    <div class="search__content">
+                        <div class="search-form">
+                            <div class="search-form__inner">
+                                <input placeholder="Введите название населённого пункта" class="search-form__input" type="text">
+                                <div class="search-form__result">
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="search-form__conent">
+                                <ul class="search-form-list">
+                                </ul>
+                                <div class="lds-ring search-form__loader ">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <button disabled class="search-form__btn">сохранить</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-item content-item-love">
+                    <img class="content-item-img" src="./images/love.png" alt="Сердечко">
+                    <span class="content-item-count">1</span>
+                </div>
+
+                <div class="content-item content-item-user">
+                    <span class="content-item-count">Екатерина</span>
+                    <img class="content-item-img" src="./images/avatar.png" alt="Сердечко">
+                </div>
+
+                <div class="location-items swiper">
+                    <ul class="location-items__list swiper-wrapper">
+                        <li class="location-items__item swiper-slide">
+                            Вузы
+                        </li>
+                        <li class="location-items__item swiper-slide">
+                            Колледжи
+                        </li>
+                        <li class="location-items__item swiper-slide">
+                            Техникумы
+                        </li>
+                        <li class="location-items__item swiper-slide">
+                            Училища
+                        </li>
+                        <li class="location-items__item swiper-slide">
+                            Специальности
+                        </li>
+                        <li class="location-items__item swiper-slide">
+                            Профессии
+                        </li>
+                        <li class="location-items__item swiper-slide">
+                            Отзывы
+                        </li>
+                        <li class="location-items__item swiper-slide">
+                            Учебным заведениям
+                        </li>
+                        <li class="location-items__item swiper-slide">
+                            Тест на профориентацию
+                        </li>
+                        <li class="location-items__item swiper-slide">
+                            Тест на профориентацию
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- <label for="myInput">Type something in!</label>
+    <input id="myInput" type="text"> -->
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
